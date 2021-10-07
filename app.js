@@ -13,6 +13,8 @@ app.get('/profile', (req, res) => {
 app.post('/profile', (req, res) => {
     res.send('profile is created')
 })
+
+
 app.put('/profile', (req, res) => {
     res.send('profile is updated')
 })
